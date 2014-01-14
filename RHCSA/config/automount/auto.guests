@@ -1,0 +1,2 @@
+ldapuser1	-rw,sync,vers=3		instructor.example.com:/home/guests/ldapuser1
+*		-rw,sync		instructor.example.com:/home/guests/&
