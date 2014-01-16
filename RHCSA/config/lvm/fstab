@@ -1,0 +1,21 @@
+
+#
+# /etc/fstab
+# Created by anaconda on Mon Jan 13 10:05:04 2014
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/vgsrv-root  /                       ext4    defaults        1 1
+UUID=75cd74ec-cdab-4e1f-9fb0-08b9fbb88993 /boot                   ext4    defaults        1 2
+/dev/mapper/vgsrv-home  /home                   ext4    defaults        1 2
+/dev/mapper/vgsrv-swap  swap                    swap    defaults        0 0
+tmpfs                   /dev/shm                tmpfs   defaults        0 0
+devpts                  /dev/pts                devpts  gid=5,mode=620  0 0
+sysfs                   /sys                    sysfs   defaults        0 0
+proc                    /proc                   proc    defaults        0 0
+/dev/vda3		/data			ext4	acl		1 2
+UUID="61930677-af79-404f-9f6e-3c3d941f9da0"	/secret	ext4	defaults	1 2
+UUID=2045e802-32b1-427b-98ea-122d40a4036b	swap	swap	defaults	0 0
+/dev/mapper/myvg-mylv	/lvm			ext4	defaults	1 2
+/dev/mapper/myvg-snap	/snap			ext4	ro		0 0
