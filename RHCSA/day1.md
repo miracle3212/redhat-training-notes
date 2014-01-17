@@ -1,4 +1,4 @@
-# Networking
+# Unit 1: Networking
 
 ### Commands
     ip addr show (ip a)
@@ -29,7 +29,10 @@ Make sure DNS works:
     dig google.com
     host google.com
 
-# Users and Groups
+### Notes
+* never change resolv.conf manually, it is overwritten every time network service is restarted; use ifcfg-<interface> to configure name servers
+
+# Unit 2: Users and Groups
 
 ## System Users and Groups
 
@@ -48,7 +51,6 @@ Make sure DNS works:
     /sbin/nologin
     /etc/shadow
     /etc/group
-
 
 * to force user to change password on next login, set last pwd change date to 0 with ```chage -d```
 * to lock user account: ```usermod -L elvis```
@@ -73,8 +75,7 @@ Make sure DNS works:
 
 * see sample config in [config/automount](config/automount)
 
-
-# Processes
+# Unit 3: Processes
 
 ### Commands
     ssh -X

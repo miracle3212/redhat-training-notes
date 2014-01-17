@@ -108,7 +108,6 @@
     tar tf etc.tar # "test" the archive (show files)
     tar xf etc.tar.xz # extract the archive
 
-
 # Unit 8: Services
 
 ### Commands
@@ -139,7 +138,7 @@
     yum search vnc # reveals tigervnc-server
     yum install tigervnc-server
     rpm -qc tigervnc-server # reveals /etc/sysconfig/vncservers
-    # configure vncservers (see sample config in [config/vnc](config/vnc))
+    # configure /etc/sysconfig/vncservers
     # log in as student
     su - student
     # set password
@@ -148,6 +147,9 @@
     service vncserver restart
     # test it on client machine
     vncviewer -via student@server2 localhost:1
+
+### Notes
+* see sample config in [config/vnc](config/vnc)
 
 ## vsftpd
 

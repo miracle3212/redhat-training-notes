@@ -3,10 +3,10 @@ Overview
 
 Course info
 -----------
-* Day 1: Units 1, 2, 3
-* Day 2: Units 5, 6, 7, 8, 9
-* Day 3: Units 10, 11, 12, 13
-* Day 4: Units 14, 15, 16
+* [Day 1: Units 1, 2, 3](day1.md)
+* [Day 2: Units 5, 6, 7, 8, 9](day2.md)
+* [Day 3: Units 10, 11, 12, 13](day3.md)
+* [Day 4: Units 14, 15, 16](day4.md)
 * Day 5: Exam
 
 NOT on this exam:
@@ -52,3 +52,4 @@ serverX is a vm on desktopX
 * ```virt-viewer -c qemu:///system vserver``` to access serverX from desktopX
 * ```su -``` - always use su with -, it sets the environment correctly
 * ```ssh -X``` use ssh with -X to be able to launch graphical application remotely
+* if the vm dies, run ```lab-resetvm``` to restore it from snapshot
