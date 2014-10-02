@@ -53,3 +53,9 @@ serverX is a vm on desktopX
 * ```su -``` - always use su with -, it sets the environment correctly
 * ```ssh -X``` use ssh with -X to be able to launch graphical application remotely
 * if the vm dies, run ```lab-resetvm``` to restore it from snapshot
+* 
+
+
+Good links
+----------
+http://www.stephenlang.net/tag/rhcsa/
