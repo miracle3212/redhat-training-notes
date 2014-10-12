@@ -59,3 +59,5 @@ serverX is a vm on desktopX
 Good links
 ----------
 http://www.stephenlang.net/tag/rhcsa/
+http://www.certdepot.net/rhcsa-sample-exam-2/
+http://certcollection.org/forum/topic/151521-rhcsa-exam-questions-with-answers/
