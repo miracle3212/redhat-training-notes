@@ -62,3 +62,6 @@ Good links
 * http://www.certdepot.net/rhcsa-sample-exam-2/
 * http://certcollection.org/forum/topic/151521-rhcsa-exam-questions-with-answers/
 * http://thenubbyadmin.com/2012/10/10/october-2012-student-created-rhcsa-ex200-study-notes/
+* http://controlprotocol.blogspot.fr/2012/05/rhcsa-cheat-sheet.html
+* http://funwithlinux.net/2013/02/rhcsa-study-guide-rhel-6/
+* http://www.linuxexplorers.com/red-hat-certified-system-administrator-rhcsa-ex200-study-guide/
