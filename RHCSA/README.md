@@ -61,3 +61,4 @@ Good links
 * http://www.stephenlang.net/tag/rhcsa/
 * http://www.certdepot.net/rhcsa-sample-exam-2/
 * http://certcollection.org/forum/topic/151521-rhcsa-exam-questions-with-answers/
+* http://thenubbyadmin.com/2012/10/10/october-2012-student-created-rhcsa-ex200-study-notes/
