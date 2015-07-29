@@ -66,3 +66,4 @@ Good links
 * http://funwithlinux.net/2013/02/rhcsa-study-guide-rhel-6/
 * http://www.linuxexplorers.com/red-hat-certified-system-administrator-rhcsa-ex200-study-guide/
 * https://github.com/mconigliaro/RHCE-Cheat-Sheet#readme
+* http://virtuallyhyper.com/2012/12/rhcsa-and-rhce-study-guide/
